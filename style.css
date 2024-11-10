@@ -1,0 +1,76 @@
+/* Unordered list with circle markers */
+ul.a {
+  list-style-type: circle;
+}
+
+/* Unordered list with square markers */
+ul.b {
+  list-style-type: square;
+}
+
+/* Ordered list with uppercase Roman numerals */
+ol.c {
+  list-style-type: upper-roman;
+}
+
+/* Ordered list with lowercase alphabet markers */
+ol.d {
+  list-style-type: lower-alpha;
+}
+
+/* Custom image as marker for list items */
+.list-image li {
+  list-style-type: none; /* Removes default bullet point */
+  padding-left: 24px; /* Adds space for the custom image */
+  background-image: url(w3schools-logo-icon.png); /* Sets custom image as background */
+  background-size: 16px 16px; /* Adjusts the image size */
+  background-repeat: no-repeat;
+  background-position: left center; /* Aligns image in list */
+}
+
+/* List positioned outside the list item (default) */
+ul.ex1 {
+  list-style-position: outside;
+}
+
+/* List positioned inside the list item */
+ul.ex2 {
+  list-style-position: inside;
+}
+
+/* Removes bullets, padding, and margin from list items */
+ul.remove-bullets {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Styled ordered list with background color and font properties */
+ol.one {
+  background-color: purple;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+/* Styled list items within ordered list */
+ol.one li {
+  background-color: pink;
+  padding: 5px;
+}
+
+/* Styled unordered list with background color and font properties */
+ul.one {
+  background-color: rgb(128, 128, 242);
+  padding: 15px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1em;
+}
+
+/* Styled list items within unordered list */
+ul.one li {
+  background-color: rgb(5, 172, 172);
+  padding: 5px;
+  margin: 5px;
+}
